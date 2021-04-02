@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity" >
+
+    <Switch
+        android:id="@+id/interruptor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Interruptor"
+        android:textOff="desligado"
+        android:textOn="ligado"
+        android:textSize="24sp" />
+
+    <ToggleButton
+        android:id="@+id/ligadesliga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="ToggleButton"
+        android:textOff="Desligado"
+        android:textOn="Ligado"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/enviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="enviar"
+        android:text="enviar" />
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Resultado" />
+
+    <Button
+        android:id="@+id/alertDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="abrirAlertDialog"
+        android:text="abrir alertDialog"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="10"
+        android:paddingTop="20dp"
+        android:progress="0" />
+
+    <ProgressBar
+        android:id="@+id/progressBarCircular"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:visibility="gone" />
+
+    <Button
+        android:id="@+id/botao_progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="carregarProgressBar"
+        android:text="carregar" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="10"
+        android:paddingTop="20dp" />
+
+    <Button
+        android:id="@+id/botao_sick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="recuperaProcessoSeekBar"
+        android:text="Escala" />
+
+    <TextView
+        android:id="@+id/result_escala"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="resultEscala"
+        android:textSize="18sp" />
+</LinearLayout>

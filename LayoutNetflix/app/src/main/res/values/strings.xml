@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Layout Netflix</string>
+    <string name="Menu_Mensagem">Mensagens</string>
+    <string name="Menu_Volume">Volume</string>
+    <string name="Menu_favoritos">Favoritos</string>
+    <string name="Menu_Conteudo">Conteudo</string>
+    <string name="Tempo_Final">tempo final</string>
+    <string name="Tempo_final" />
+    <string name="Menu_Voltar">Voltar</string>
+    <string name="Menu_Pausar">Pausar</string>
+    <string name="Menu_Video">Tela de Video</string>
+    <string name="Menu_Tempo">TempoAtual</string>
+</resources>

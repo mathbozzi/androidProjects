@@ -1,0 +1,2 @@
+rootProject.name='testeBluetoothGraph'
+include ':app'
